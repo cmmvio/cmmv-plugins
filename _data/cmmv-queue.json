@@ -1,0 +1,39 @@
+{
+    "name": "@cmmv/queue",
+    "description": "Message and job queuing system",
+    "category": "Architecture",
+    "dependencies": ["@cmmv/queue"],
+    "documentation": "https://cmmv.io/docs/modules/queue",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv-queue",
+    "npm": "https://www.npmjs.com/package/@cmmv/queue",
+    "license": "MIT",
+    "tags": ["queue", "message-broker", "redis", "rabbitmq", "kafka"],
+    "beta": false,
+    "official": true,
+    "submodules": [
+        {
+            "name": "Redis",
+            "installed": false,
+            "description": "Redis queue adapter",
+            "packageName": "ioredis"
+        },
+        {
+            "name": "RabbitMQ",
+            "installed": false,
+            "description": "RabbitMQ queue adapter",
+            "packageName": "amqp-connection-manager"
+        },
+        {
+            "name": "Kafka",
+            "installed": false,
+            "description": "Kafka queue adapter",
+            "packageName": "kafkajs"
+        }
+    ],
+    "moduleImport": {
+        "import": "QueueModule",
+        "path": "@cmmv/queue",
+        "modules": ["QueueModule"]
+    }
+}

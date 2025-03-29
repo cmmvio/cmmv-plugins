@@ -1,0 +1,26 @@
+{
+    "name": "@cmmv/encryptor",
+    "description": "Data encryption and security utilities",
+    "category": "Security",
+    "dependencies": [
+        "@cmmv/encryptor",
+        "bip32",
+        "bip39",
+        "bs58",
+        "elliptic",
+        "tiny-secp256k1"
+    ],
+    "documentation": "https://cmmv.io/docs/modules/encryptor",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv-encryptor",
+    "npm": "https://www.npmjs.com/package/@cmmv/encryptor",
+    "license": "MIT",
+    "tags": ["encryption", "security", "cryptography"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "EncryptorModule",
+        "path": "@cmmv/encryptor",
+        "modules": ["EncryptorModule"]
+    }
+}

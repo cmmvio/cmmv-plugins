@@ -1,0 +1,8 @@
+{
+    "name": "@cmmv/plugins",
+    "version": "0.0.1",
+    "description": "Plugins List for CMMV",
+    "scripts": {
+        "build": "node process.js"
+    }
+}

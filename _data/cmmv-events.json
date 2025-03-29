@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/events",
+    "description": "Event-driven architecture implementation",
+    "category": "Architecture",
+    "dependencies": ["@cmmv/events", "eventemitter2"],
+    "documentation": "https://cmmv.io/docs/modules/events",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/events",
+    "npm": "https://www.npmjs.com/package/@cmmv/events",
+    "license": "MIT",
+    "tags": ["events", "architecture", "event-driven"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "EventsModule",
+        "path": "@cmmv/events",
+        "modules": ["EventsModule"]
+    }
+}

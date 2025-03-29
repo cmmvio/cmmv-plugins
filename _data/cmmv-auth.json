@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/auth",
+    "description": "User authentication and authorization system",
+    "category": "Security",
+    "dependencies": ["@cmmv/auth", "@loskir/styled-qr-code-node", "jsonwebtoken", "speakeasy"],
+    "documentation": "https://cmmv.io/docs/modules/authentication",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/auth",
+    "npm": "https://www.npmjs.com/package/@cmmv/auth",
+    "license": "MIT",
+    "tags": ["auth", "security", "jwt", "2fa", "qr-code"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "AuthModule",
+        "path": "@cmmv/auth",
+        "modules": ["AuthModule"]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "@cmmv/blog",
+    "description": "Blog plugin for CMMV",
+    "category": "Content Management",
+    "dependencies": ["@cmmv/blog"],
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv-blog",
+    "npm": "https://www.npmjs.com/package/@cmmv/blog",
+    "license": "MIT",
+    "tags": ["blog", "cms", "content", "management"],
+    "beta": true,
+    "official": true,
+    "plugin": true
+}

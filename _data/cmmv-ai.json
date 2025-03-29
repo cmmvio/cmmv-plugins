@@ -1,0 +1,14 @@
+{
+    "name": "@cmmv/ai",
+    "description": "AI integration with multiple providers",
+    "category": "Integration",
+    "dependencies": ["@cmmv/ai"],
+    "documentation": "https://cmmv.io/docs/modules/ai",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv-ai",
+    "npm": "https://www.npmjs.com/package/@cmmv/ai",
+    "license": "MIT",
+    "tags": ["ai", "integration", "openai", "anthropic", "gemini", "claude", "openai", "anthropic", "gemini", "claude"],
+    "beta": true,
+    "official": true
+}

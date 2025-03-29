@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/inspector",
+    "description": "Code and performance inspection tools",
+    "category": "Development",
+    "dependencies": ["@cmmv/inspector"],
+    "documentation": "https://cmmv.io/docs/modules/inspector",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/inspector",
+    "npm": "https://www.npmjs.com/package/@cmmv/inspector",
+    "license": "MIT",
+    "tags": ["development", "debugging", "performance", "monitoring"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "InspectorModule",
+        "path": "@cmmv/inspector",
+        "modules": ["InspectorModule"]
+    }
+}

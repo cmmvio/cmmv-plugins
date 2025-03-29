@@ -1,0 +1,25 @@
+{
+    "name": "@cmmv/normalizer",
+    "description": "Data normalization and transformation tools",
+    "category": "Data Processing",
+    "dependencies": [
+        "@cmmv/normalizer",
+        "sax",
+        "fast-json-stringify",
+        "stream-json",
+        "yaml"
+    ],
+    "documentation": "https://cmmv.io/docs/modules/normalizer",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv-normalizer",
+    "npm": "https://www.npmjs.com/package/@cmmv/normalizer",
+    "license": "MIT",
+    "tags": ["data", "normalization", "transformation", "xml", "yaml", "json", "csv"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "NormalizerModule",
+        "path": "@cmmv/normalizer",
+        "modules": ["NormalizerModule"]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/openapi",
+    "description": "OpenAPI/Swagger documentation generator",
+    "category": "Documentation",
+    "dependencies": ["@cmmv/openapi", "js-yaml"],
+    "documentation": "https://cmmv.io/docs/modules/openapi",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/openapi",
+    "npm": "https://www.npmjs.com/package/@cmmv/openapi",
+    "license": "MIT",
+    "tags": ["api", "documentation", "swagger", "openapi"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "OpenAPIModule",
+        "path": "@cmmv/openapi",
+        "modules": ["OpenAPIModule"]
+    }
+}

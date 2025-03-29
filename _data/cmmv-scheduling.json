@@ -1,0 +1,20 @@
+{
+    "name": "@cmmv/scheduling",
+    "description": "Task scheduling and cron jobs",
+    "category": "System",
+    "dependencies": ["@cmmv/scheduling", "cron"],
+    "documentation": "https://cmmv.io/docs/modules/scheduling",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/scheduling",
+    "npm": "https://www.npmjs.com/package/@cmmv/scheduling",
+    "license": "MIT",
+    "tags": ["scheduling", "cron", "tasks", "jobs"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": ["SchedulingModule", "SchedulingService"],
+        "path": "@cmmv/scheduling",
+        "modules": ["SchedulingModule"],
+        "providers": ["SchedulingService"]
+    }
+}

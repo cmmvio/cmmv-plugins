@@ -1,0 +1,45 @@
+{
+    "name": "@cmmv/cache",
+    "description": "Caching system for improved performance",
+    "category": "Performance",
+    "dependencies": ["@cmmv/cache", "cache-manager"],
+    "documentation": "https://cmmv.io/docs/modules/cache",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/cache",
+    "npm": "https://www.npmjs.com/package/@cmmv/cache",
+    "license": "MIT",
+    "tags": ["cache", "performance", "redis", "memcached", "mongodb"],
+    "beta": false,
+    "official": true,
+    "submodules": [
+        {
+            "name": "Redis",
+            "installed": false,
+            "description": "Redis cache adapter",
+            "packageName": "@tirke/node-cache-manager-ioredis"
+        },
+        {
+            "name": "Memcached",
+            "installed": false,
+            "description": "Memcached cache adapter",
+            "packageName": "cache-manager-memcached-store"
+        },
+        {
+            "name": "MongoDB",
+            "installed": false,
+            "description": "MongoDB cache adapter",
+            "packageName": "cache-manager-mongodb"
+        },
+        {
+            "name": "Filesystem Binary",
+            "installed": false,
+            "description": "Filesystem Binary cache adapter",
+            "packageName": "cache-manager-fs-binary"
+        }
+    ],
+    "moduleImport": {
+        "import": "CacheModule",
+        "path": "@cmmv/cache",
+        "modules": ["CacheModule"]
+    }
+}

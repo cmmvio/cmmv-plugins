@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/testing",
+    "description": "Testing framework and utilities",
+    "category": "Development",
+    "dependencies": ["@cmmv/testing"],
+    "documentation": "https://cmmv.io/docs/modules/testing",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/testing",
+    "npm": "https://www.npmjs.com/package/@cmmv/testing",
+    "license": "MIT",
+    "tags": ["testing", "development", "testing-framework"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "TestingModule",
+        "path": "@cmmv/testing",
+        "modules": ["TestingModule"]
+    }
+}

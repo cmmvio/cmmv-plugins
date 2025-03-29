@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/ws",
+    "description": "WebSocket server and client implementation",
+    "category": "Integration",
+    "dependencies": ["@cmmv/websocket", "ws"],
+    "documentation": "https://cmmv.io/docs/rpc/websocket",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/ws",
+    "npm": "https://www.npmjs.com/package/@cmmv/ws",
+    "license": "MIT",
+    "tags": ["websocket", "realtime", "communication", "rpc"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "WebSocketModule",
+        "path": "@cmmv/ws",
+        "modules": ["WebSocketModule"]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/elastic",
+    "description": "Elasticsearch integration for advanced search capabilities",
+    "category": "Integration",
+    "dependencies": ["@cmmv/elastic", "@elastic/elasticsearch"],
+    "documentation": "https://cmmv.io/docs/modules/elastic",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv-elastic",
+    "npm": "https://www.npmjs.com/package/@cmmv/elastic",
+    "license": "MIT",
+    "tags": ["elasticsearch", "search", "integration"],
+    "beta": true,
+    "official": true,
+    "moduleImport": {
+        "import": "ElasticModule",
+        "path": "@cmmv/elastic",
+        "modules": ["ElasticModule"]
+    }
+}

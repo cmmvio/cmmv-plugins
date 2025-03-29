@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/vault",
+    "description": "Secure credentials and secrets management",
+    "category": "Security",
+    "dependencies": ["@cmmv/vault", "@cmmv/encryptor", "elliptic"],
+    "documentation": "https://cmmv.io/docs/modules/vault",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/vault",
+    "npm": "https://www.npmjs.com/package/@cmmv/vault",
+    "license": "MIT",
+    "tags": ["security", "secrets", "credentials", "encryption"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "VaultModule",
+        "path": "@cmmv/vault",
+        "modules": ["VaultModule"]
+    }
+}

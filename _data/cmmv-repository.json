@@ -1,0 +1,58 @@
+{
+    "name": "@cmmv/repository",
+    "description": "Data persistence and ORM implementation",
+    "category": "Data Storage",
+    "dependencies": ["@cmmv/repository", "typeorm"],
+    "documentation": "https://cmmv.io/docs/modules/repository",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/repository",
+    "npm": "https://www.npmjs.com/package/@cmmv/repository",
+    "license": "MIT",
+    "tags": ["database", "orm", "typeorm", "mysql", "postgres", "mongodb"],
+    "beta": false,
+    "official": true,
+    "submodules": [
+        {
+            "name": "MySQL",
+            "installed": false,
+            "description": "MySQL/MariaDB adapter",
+            "packageName": "mysql2"
+        },
+        {
+            "name": "PostgreSQL",
+            "installed": false,
+            "description": "PostgreSQL adapter",
+            "packageName": "pg"
+        },
+        {
+            "name": "MongoDB",
+            "installed": false,
+            "description": "MongoDB adapter",
+            "packageName": "mongodb"
+        },
+        {
+            "name": "SQLite",
+            "installed": false,
+            "description": "SQLite adapter",
+            "packageName": "sqlite3"
+        },
+        {
+            "name": "SQL Server",
+            "installed": false,
+            "description": "SQL Server adapter",
+            "packageName": "mssql"
+        },
+        {
+            "name": "Oracle",
+            "installed": false,
+            "description": "Oracle adapter",
+            "packageName": "oracledb"
+        }
+    ],
+    "moduleImport": {
+        "import": ["RepositoryModule", "Repository"],
+        "path": "@cmmv/repository",
+        "modules": ["RepositoryModule"],
+        "providers": ["Repository"]
+    }
+}

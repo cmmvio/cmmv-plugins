@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/throttler",
+    "description": "Throttling and rate limiting implementation",
+    "category": "Performance",
+    "dependencies": ["@cmmv/throttler"],
+    "documentation": "https://cmmv.io/docs/modules/throttler",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/throttler",
+    "npm": "https://www.npmjs.com/package/@cmmv/throttler",
+    "license": "MIT",
+    "tags": ["throttling", "rate-limit", "performance", "security"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "ThrottlerModule",
+        "path": "@cmmv/throttler",
+        "modules": ["ThrottlerModule"]
+    }
+}

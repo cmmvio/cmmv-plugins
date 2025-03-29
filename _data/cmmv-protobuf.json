@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/protobuf",
+    "description": "Protocol Buffers implementation",
+    "category": "Integration",
+    "dependencies": ["@cmmv/protobuf", "protobufjs"],
+    "documentation": "https://cmmv.io/docs/rpc/proto",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/protobuf",
+    "npm": "https://www.npmjs.com/package/@cmmv/protobuf",
+    "license": "MIT",
+    "tags": ["protobuf", "rpc", "serialization", "grpc"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "ProtobufModule",
+        "path": "@cmmv/protobuf",
+        "modules": ["ProtobufModule"]
+    }
+}

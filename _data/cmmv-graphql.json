@@ -1,0 +1,26 @@
+{
+    "name": "@cmmv/graphql",
+    "description": "GraphQL API implementation",
+    "category": "Integration",
+    "dependencies": [
+        "@cmmv/graphql",
+        "graphql",
+        "graphql-scalars",
+        "graphql-type-json",
+        "type-graphql",
+        "@apollo/server"
+    ],
+    "documentation": "https://cmmv.io/docs/graphql/overview",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/graphql",
+    "npm": "https://www.npmjs.com/package/@cmmv/graphql",
+    "license": "MIT",
+    "tags": ["graphql", "api", "apollo", "schema"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "GraphQLModule",
+        "path": "@cmmv/graphql",
+        "modules": ["GraphQLModule"]
+    }
+}

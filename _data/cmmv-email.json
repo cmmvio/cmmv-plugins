@@ -1,0 +1,19 @@
+{
+    "name": "@cmmv/email",
+    "description": "Email sending service with multiple provider support",
+    "category": "Communication",
+    "dependencies": ["@cmmv/email", "aws-sdk", "nodemailer"],
+    "documentation": "https://cmmv.io/docs/modules/email",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/email",
+    "npm": "https://www.npmjs.com/package/@cmmv/email",
+    "license": "MIT",
+    "tags": ["email", "communication", "aws", "nodemailer"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "EmailModule",
+        "path": "@cmmv/email",
+        "modules": ["EmailModule"]
+    }
+}

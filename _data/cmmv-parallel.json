@@ -1,0 +1,23 @@
+{
+    "name": "@cmmv/parallel",
+    "description": "Parallel processing and multi-threading support",
+    "category": "Performance",
+    "dependencies": [
+        "@cmmv/parallel",
+        "@bnaya/objectbuffer",
+        "fast-thread"
+    ],
+    "documentation": "https://cmmv.io/docs/modules/parallel",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv-parallel",
+    "npm": "https://www.npmjs.com/package/@cmmv/parallel",
+    "license": "MIT",
+    "tags": ["parallel", "performance", "multithreading", "processing"],
+    "beta": false,
+    "official": true,
+    "moduleImport": {
+        "import": "ParallelModule",
+        "path": "@cmmv/parallel",
+        "modules": ["ParallelModule"]
+    }
+}

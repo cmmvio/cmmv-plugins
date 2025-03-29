@@ -1,0 +1,56 @@
+{
+    "name": "@cmmv/keyv",
+    "description": "Key-value storage implementation",
+    "category": "Data Storage",
+    "dependencies": ["@cmmv/keyv", "keyv", "@keyv/compress-gzip"],
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv/tree/main/packages/keyv",
+    "npm": "https://www.npmjs.com/package/@cmmv/keyv",
+    "license": "MIT",
+    "tags": ["key-value", "storage", "redis", "memcached", "mongodb"],
+    "beta": false,
+    "official": true,
+    "submodules": [
+        {
+            "name": "Redis",
+            "installed": false,
+            "description": "Redis key-value adapter",
+            "packageName": "@keyv/redis"
+        },
+        {
+            "name": "Memcached",
+            "installed": false,
+            "description": "Memcached key-value adapter",
+            "packageName": "@keyv/memcached"
+        },
+        {
+            "name": "MongoDB",
+            "installed": false,
+            "description": "MongoDB key-value adapter",
+            "packageName": "@keyv/mongodb"
+        },
+        {
+            "name": "SQLite",
+            "installed": false,
+            "description": "SQLite key-value adapter",
+            "packageName": "@keyv/sqlite"
+        },
+        {
+            "name": "MySQL",
+            "installed": false,
+            "description": "MySQL key-value adapter",
+            "packageName": "@keyv/mysql"
+        },
+        {
+            "name": "PostgreSQL",
+            "installed": false,
+            "description": "PostgreSQL key-value adapter",
+            "packageName": "@keyv/postgres"
+        }
+    ],
+    "moduleImport": {
+        "import": "KeyvModule",
+        "path": "@cmmv/keyv",
+        "modules": ["KeyvModule"]
+    }
+}
