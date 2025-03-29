@@ -36,6 +36,9 @@ To list your module in the catalog, you need to create a JSON file in the `_data
     "license": "MIT",
     "tags": ["tag1", "tag2"],
     "beta": false,
+    "experimental": false,
+    "official": true,
+    "plugin": false,
     "submodules": [
         {
             "name": "Submodule 1",
@@ -68,7 +71,10 @@ To list your module in the catalog, you need to create a JSON file in the `_data
 
 ### Optional Fields
 
-- `beta`: Indicates if the module is in beta (default: false)
+- `experimental`: Indicates if the module is in early development stage, not recommended for production (default: false)
+- `beta`: Indicates if the module is in beta testing phase (default: false)
+- `official`: Indicates if the module is officially maintained by the CMMV team (default: false)
+- `plugin`: Indicates if it's a plugin rather than a core module (default: false)
 - `submodules`: Array of available submodules
 - `moduleImport`: Configuration for how CMMV should inject the module
 
@@ -82,13 +88,13 @@ Submodules are optional and allow you to define different implementations or ada
         "name": "MySQL",
         "installed": false,
         "description": "MySQL adapter for Repository",
-        "packageName": "@cmmv/repository-mysql"
+        "packageName": "mysql2"
     },
     {
         "name": "PostgreSQL",
         "installed": false,
         "description": "PostgreSQL adapter for Repository",
-        "packageName": "@cmmv/repository-postgres"
+        "packageName": "pg"
     }
 ]
 ```
@@ -131,6 +137,14 @@ The `moduleImport` field defines how CMMV should inject the module into the proj
 - Themes
 - Plugins
 - CMS
+- Content Management
+- System
+- Development
+- Data Storage
+- Architecture
+- Data Processing
+- Documentation
+- Communication
 
 ## Support
 

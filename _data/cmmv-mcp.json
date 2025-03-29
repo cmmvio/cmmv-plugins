@@ -1,0 +1,15 @@
+{
+    "name": "@cmmv/mcp",
+    "description": "Model Context Protocol (MCP) module for CMMV",
+    "tags": ["mcp", "content", "anthropic"],
+    "category": "Integration",
+    "author": "Andre Ferreira",
+    "github": "https://github.com/cmmvio/cmmv-mcp",
+    "npm": "https://www.npmjs.com/package/@cmmv/mcp",
+    "license": "MIT",
+    "dependencies": ["@cmmv/mcp"],
+    "experimental": true,
+    "beta": false,
+    "official": true,
+    "plugin": false
+}
