@@ -7,7 +7,11 @@
     "github": "https://github.com/cmmvio/cmmv-mcp",
     "npm": "https://www.npmjs.com/package/@cmmv/mcp",
     "license": "MIT",
-    "dependencies": ["@cmmv/mcp"],
+    "dependencies": [
+        "@cmmv/mcp",
+        "@modelcontextprotocol/sdk",
+        "zod"
+    ],
     "experimental": true,
     "beta": false,
     "official": true,
