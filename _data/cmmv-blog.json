@@ -2,14 +2,18 @@
     "name": "@cmmv/blog",
     "description": "Blog plugin for CMMV",
     "category": "Content Management",
-    "dependencies": ["@cmmv/blog"],
+    "dependencies": [
+        "@cmmv/blog", "@cmmv/auth", "@cmmv/cache", "@cmmv/http",
+        "busboy", "cache-manager-fs-binary", "jsonwebtoken", "sharp",
+        "uuid", "xml2js"
+    ],
     "author": "Andre Ferreira",
     "github": "https://github.com/cmmvio/cmmv-blog",
     "npm": "https://www.npmjs.com/package/@cmmv/blog",
     "license": "MIT",
     "tags": ["blog", "cms", "content", "management"],
-    "experimental": true,
-    "beta": false,
+    "experimental": false,
+    "beta": true,
     "official": true,
     "plugin": true
 }
