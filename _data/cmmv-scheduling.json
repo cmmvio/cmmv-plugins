@@ -11,6 +11,7 @@
     "tags": ["scheduling", "cron", "tasks", "jobs"],
     "beta": false,
     "official": true,
+    "deprecated": true,
     "moduleImport": {
         "import": ["SchedulingModule", "SchedulingService"],
         "path": "@cmmv/scheduling",

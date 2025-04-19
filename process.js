@@ -103,6 +103,11 @@ function processModules() {
                 return;
             }
 
+            if (module.deprecated === true) {
+                console.log(`Skipping deprecated module: ${module.name}`);
+                return;
+            }
+
             modules.push(module);
         } catch (error) {
             errors.push(`\nError processing ${file}:`);

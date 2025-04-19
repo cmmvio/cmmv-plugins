@@ -11,6 +11,7 @@
     "tags": ["events", "architecture", "event-driven"],
     "beta": false,
     "official": true,
+    "deprecated": true,
     "moduleImport": {
         "import": "EventsModule",
         "path": "@cmmv/events",

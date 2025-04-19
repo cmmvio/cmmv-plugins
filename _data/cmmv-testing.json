@@ -11,6 +11,7 @@
     "tags": ["testing", "development", "testing-framework"],
     "beta": false,
     "official": true,
+    "experimental": true,
     "moduleImport": {
         "import": "TestingModule",
         "path": "@cmmv/testing",
